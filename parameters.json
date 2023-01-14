@@ -1,0 +1,21 @@
+{
+    "parameterSets":
+    {
+        "telepod-with-center": {
+            "do_telepod": true,
+            "do_bright_center": true,
+            "do_circles": true
+        } ,
+        "telepod-without-center": {
+            "do_telepod": true,
+            "do_bright_center": false,
+            "do_circles": true
+        } ,
+        "only-center": {
+            "do_telepod": false,
+            "do_bright_center": true,
+            "do_circles": false
+        }
+    },
+    "fileFormatVersion": "1"
+}
